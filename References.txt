@@ -1,1 +1,23 @@
 Security Engineering - https://www.cl.cam.ac.uk/~rja14/book.html
+
+Lesson 3
+ISACA, IT Governance Institute: https://www.isaca.org/about-isaca/it-governance-institute/pages/default.aspx
+NIST Glossary: https://csrc.nist.gov/glossary/
+ISO/IEC 27000 Series - https://www.iso.org/isoiec-27001-information-security.html
+NIST CSRC - https://csrc.nist.gov/
+NIST Special Publications - https://csrc.nist.gov/publications
+HIPAA Privacy Rule - https://www.hhs.gov/hipaa/for-professionals/privacy/index.html
+HIPAA Security Rule - https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html
+PCI DSS - https://www.pcisecuritystandards.org/
+EU GDPR - https://gdpr-info.eu/
+NIST CSF, "An Introduction to the Components of the Framework" - https://www.nist.gov/cyberframework/online-learning/components-framework
+NIST CSF Five Functions - https://www.nist.gov/cyberframework/online-learning/five-functions
+CIS Best Practices: https://www.cisecurity.org/cybersecurity-best-practices/
+CIS Controls List: https://www.cisecurity.org/controls/cis-controls-list/
+
+Lesson 4 - Think like a Hacker
+Vulnerability managment
+    NIST National Vulnerability Database (NVD) - https://nvd.nist.gov/
+    MITRE Common Vulnerabilities and Exposures (CVE) list - https://cve.mitre.org/about/index.html
+Introduction to threats, Attacks and Exploits
+    MITRE ATT&CK® Framework - https://attack.mitre.org/

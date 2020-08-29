@@ -1,0 +1,10 @@
+Hardware manufacturer, make and model   - Lenovo, ThinkPad, carbon
+Operating systems, version and OS build - Windows 10 Pro, 1909 & OS build - 18363.1016
+Application installed
+    - VS code - Version: 1.48.0 
+    - Edge - Version 84.0.522.63 
+
+
+CVE-2020-9859	A memory consumption issue. An application may be able to execute arbitrary code with kernel privileges.
+CVE-2020-9852	A malicious application may be able to execute arbitrary code with kernel privileges.
+CVE-2020-9826	A denial of service issue was addressed with improved input validation. A remote attacker may be able to cause a denial of service.
