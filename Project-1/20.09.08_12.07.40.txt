@@ -1,0 +1,75 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200908000740
+Username: JumpBox\cyberadmin
+RunAs User: JumpBox\cyberadmin
+Configuration Name: 
+Machine: JumpBox (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7720
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\cyberadmin\AppData\Local\Temp\20.09.08_12.07.40.txt
+VERBOSE: 
+Az Module is already installed
+INFO: Loaded Module 'Az.Accounts'
+INFO: Loaded Module 'Az.DesktopVirtualization'
+INFO: Loaded Module 'Az.Accounts'
+INFO: Loaded Module 'Az.Functions'
+
+Account              SubscriptionName TenantId                             Environment
+-------              ---------------- --------                             -----------
+natskype@outlook.com Free Trial       4d5d3db5-f53f-4bdd-a8e9-b4d81264f154 AzureCloud
+
+Name               : Free Trial (eb1a0617-091e-4b56-aff9-6f1548e05ee6) - 4d5d3db5-f53f-4bdd-a8e9-b4d81264f154 - natskype@outlook.com
+Account            : natskype@outlook.com
+Environment        : AzureCloud
+Subscription       : eb1a0617-091e-4b56-aff9-6f1548e05ee6
+Tenant             : 4d5d3db5-f53f-4bdd-a8e9-b4d81264f154
+TokenCache         : Microsoft.Azure.Commands.Common.Authentication.Core.ProtectedFileTokenCache
+VersionProfile     :
+ExtendedProperties : {}
+
+Registering Azure provider namespaces, if applicable...please wait.
+
+Initializing resource group 'UDACITY-CYBERND01-PROJECT' in Azure region 'East US2'
+User chose to proceed with granting permission...please wait...
+WARNING: The provided service principal secret will be included in the 'AzureRmContext.json' file found in the user profile ( C:\Users\cyberadmin\.Azure ). Please ensure that this directory has appropriate protections.
+91db5e13-2118-410... Udacity Conte... 9441a015-f081-4b16-8111-e38c5a1de18e AzureCloud
+WARNING: The provided service principal secret will be included in the 'AzureRmContext.json' file found in the user profile ( C:\Users\cyberadmin\.Azure ). Please ensure that this directory has appropriate protections.
+91db5e13-2118-410... Free Trial       4d5d3db5-f53f-4bdd-a8e9-b4d81264f154 AzureCloud
+WARNING: Breaking changes in the cmdlet 'New-AzVirtualNetworkSubnetConfig' :
+WARNING:  - Update Property Name
+WARNING: Cmdlet invocation changes :
+	Old Way : -ResourceId
+	New Way : -NatGatewayId
+WARNING:  - Update Property Name
+WARNING: Cmdlet invocation changes :
+	Old Way : -InputObject
+	New Way : -NatGateway
+WARNING: NOTE : Go to https://aka.ms/azps-changewarnings for steps to suppress this breaking change warning, and other information on breaking changes in Azure PowerShell.
+WARNING: Breaking changes in the cmdlet 'New-AzPublicIpAddress' :
+WARNING:  - Default behaviour of Zone will be changed
+WARNING: Cmdlet invocation changes :
+	Old Way : Sku = Standard means the Standard Public IP is zone-redundant.
+	New Way : Sku = Standard and Zone = {} means the Standard Public IP has no zones. If you want to create a zone-redundant Public IP address, please specify all the zones in the region. For example, Zone = ['1', '2', '3'].
+WARNING: NOTE : Go to https://aka.ms/azps-changewarnings for steps to suppress this breaking change warning, and other information on breaking changes in Azure PowerShell.
+WARNING: Since the VM is created using premium storage or managed disk, existing standard storage account, freeudacitcybe083122150, is used for boot diagnostics.
+VERBOSE: Performing the operation "New" on target "JoesGaragePC".
+
+RequestId           :
+IsSuccessStatusCode : True
+StatusCode          : OK
+ReasonPhrase        : OK
+
+**********************
+Windows PowerShell transcript end
+End time: 20200908002827
+**********************
